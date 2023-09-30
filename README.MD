@@ -1,14 +1,14 @@
 ## xampp-fix
 
-Hanya dokumentasi untuk mengatasi masalah pada aplikasi xampp
+Only documentation for troubleshooting xampp applications
 
-## Solusi Mysql Error
+## Solution Mysql Error
 
-- Backup semua data yg ada di folder ini C:\xampp\mysql\data
-- Kemudian Copy semua file yang ada di dalam C:\xampp\mysql\backup, jangan copy file ibdata1 (supaya data kita aman)
-- Paste dan replace file yang ada didalam C:\xampp\mysql\data
+- Backup all data in this folder `C:\xampp\mysql\data`
+- Then copy all the files in `C:\xampp\mysql\backup`, Dont copy file ibdata1 (ibdata1 is core database in mysql xampp)
+- Paste and replace file `C:\xampp\mysql\data`
 - Restart PC
 
-## Sumber
+## Source
 
 https://stackoverflow.com/questions/56767200/cant-run-xampp-mysql
